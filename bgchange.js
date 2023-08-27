@@ -1,5 +1,5 @@
 <script>
-    function delayAndChangeBackground(imageUrl) {
+    function delayAndChangeBackgroundAndContent(imageUrl) {
         setTimeout(function() {
             document.getElementById('body').style.backgroundImage = `url(${imageUrl})`;
         }, 4500);
